@@ -1,0 +1,15 @@
+p:hover{
+    background: tomato;
+}
+
+#last{
+    border-bottom: 0;
+}
+
+p{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 0;
+}
+
