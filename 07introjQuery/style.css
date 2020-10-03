@@ -1,0 +1,39 @@
+.all{
+    border: 5x solid #4285f4;
+  }
+  
+  p{
+    width: 300px;
+    color: white;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 24px;
+  }
+  
+  .N{
+    background: #E67676;
+    border-top: 5px solid #4285f4;
+    border-left: 5px solid #4285f4;
+    border-right: 5px solid #4285f4;
+  }
+  .E{
+    background: #F2F062;
+    border-left: 5px solid #4285f4;
+    border-right: 5px solid #4285f4;
+  }
+  
+  .S{
+    background: #A9E6E6;
+    border-left: 5px solid #4285f4;
+    border-right: 5px solid #4285f4;
+  }
+  
+  .W{
+    background: #7692E4;
+    border-left: 5px solid #4285f4;
+    border-right: 5px solid #4285f4;
+    border-bottom: 5px solid #4285f4;
+  }

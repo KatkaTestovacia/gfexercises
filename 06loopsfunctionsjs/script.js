@@ -43,3 +43,11 @@ function printEach(array) {
 
 console.log("each")
 printEach(myArray)
+
+
+$("#title").text("My new title!")
+
+$("#fox-1").text("Macrotis")
+//$("#fox-2").css({"border":"5px solid purple"})
+$("#fox-2").css("border-color","purple")
+$("p").css({"background":"yellow"})
