@@ -1,0 +1,31 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid #6495ED;
+    padding: 10px;
+}
+
+.item{
+    background: #6495ED;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 5px;
+}
+
+#first{
+    margin-left: 10px;
+}
+
+#last{
+    margin-right: 10px;
+}
+
+.orange ul{
+    background: tomato;
+}

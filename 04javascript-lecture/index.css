@@ -1,0 +1,102 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.card{
+  width: 180px;
+  background: #3cb878;
+  box-shadow: 0px 0px 8px 2px black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+#newsletter-open{
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: green;
+  cursor: pointer;
+}
+
+.sign-up-form{
+  border: thin solid #cccccc;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 20px;
+  color: grey;
+  position: relative;
+}
+
+.sign-up-form h2{
+  padding: 0;
+}
+
+.sign-up-form button{
+  display: block;
+  width: 100%; /*get the width of the container*/
+  height: 25px;
+  background: #3cb878; /*background-color:*/
+  border: 0; /* border: none*/
+  margin-top: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/*.sign-up-form > input{ ;> only for direct child; space=all children*/
+.sign-up-form input[type="text"] {
+  width: 100%;
+  border-radius: 3px;
+  height: 25px;
+  padding: 0;
+  padding-left: 5px;
+  border: thin solid black;
+  box-sizing: border-box;
+}
+
+.sign-up-form input[type="checkbox"] {
+  position: relative;
+  top: 1px; /* -5px moves downward*/
+}
+
+.close-button{
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  cursor: pointer;
+}
+
+#question-mark{
+  background: #3cb878;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+a:visited{
+  color: blue; /*remaines blue after visiting*/
+}
+
+a:hover{
+  color: #3cb878;
+}
