@@ -1,0 +1,19 @@
+h1{
+    color: red;
+  }
+  
+  h2{
+    color: #8A2BE2;
+  }
+  
+  ul{
+    list-style-type: square;
+  }
+  
+  ol{
+    list-style-type: upper-roman;
+  }
+  
+  .pink{
+    color: violet;
+  }
